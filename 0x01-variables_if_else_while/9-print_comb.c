@@ -7,10 +7,15 @@
 
 int main(void)
 {
-char lw;
-for (lw = 'z' ; lw >= 'a'; lw--)
+int i;
+for (i = '0' ; i <= '9' ;  i++)
 {
-putchar(lw);
+{
+putchar(i);
+}
+if (i != '9')
+putchar(',');
+putchar(' ');
 }
 {
 putchar('\n');
