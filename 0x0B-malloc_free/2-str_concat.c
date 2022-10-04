@@ -47,10 +47,10 @@ char *str_concat(char *s1, char *s2)
 	}
 	/*Concatenate arrays*/
 	for (i = 0; *(s1 + i) != '\0'; i++)
-		*(dst + 1) = *(s1 + i);
+		*(dst + i) = *(s1 + i);
 	for (j = 0; *(s2 + j) != '\0'; j++)
 	{
-		*(dst + 1) = *(s2 + j);
+		*(dst + i) = *(s2 + j);
 		i++;
 	}
 	return (dst);
