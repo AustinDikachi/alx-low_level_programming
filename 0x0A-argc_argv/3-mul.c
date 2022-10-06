@@ -16,6 +16,7 @@ int n = 0;
 if (argc != 3)
 {
 	printf("Error\n");
+	return (1);
 }
 	else if (argc > 0)
 	{
@@ -23,6 +24,6 @@ if (argc != 3)
 		mul2 = atoi(argv[2]);
 		n = mul1 * mul2;
 		printf("%d\n", n);
-return (1);
+return (0);
 	}
 }
