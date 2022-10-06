@@ -10,8 +10,8 @@
 
 int main(int argc, char *argv[])
 {
-int i, mul1, mul2;
-int n = 2;
+int mul1, mul2;
+int n = 0;
 
 if (argc != 3)
 {
@@ -19,10 +19,6 @@ if (argc != 3)
 }
 	else if (argc > 0)
 	{
-		for (i = 0; i < argc; i++)
-		{
-			printf("argv[%d] = %s\n", i, argv[i]);
-		}
 		mul1 = atoi(argv[1]);
 		mul2 = atoi(argv[2]);
 		n = mul1 * mul2;
