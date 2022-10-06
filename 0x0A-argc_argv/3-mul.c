@@ -23,7 +23,7 @@ if (argc != 3)
 		mul1 = atoi(argv[1]);
 		mul2 = atoi(argv[2]);
 		n = mul1 * mul2;
-		printf("%d\n", n);
+		printf("%i\n", n);
 return (0);
 	}
 }
